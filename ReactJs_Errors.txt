@@ -1,0 +1,6 @@
+                                                /******* REACT    ERRORS   *********/
+1. Uncaught Error: Objects are not valid as a React child (found: object with keys {label01}). If you meant to render a collection of children, use an array instead.
+
+2.  react-dom.development.js:12955 Uncaught Error: Objects are not valid as a React child (found: object with keys {label01}). If you meant to render a collection of children, use an array instead.
+
+3. Uncaught Error: Objects are not valid as a React child (found: object with keys {label01}). If you meant to render a collection of children, use an array instead.

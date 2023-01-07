@@ -1,0 +1,79 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: pink; */
+}
+a{
+    text-decoration: none;
+}
+.mainContainer{
+    height: 100vh;
+    background-image: url('../Images/FirstPageImage/firstPage.jpg');
+    background-color: rgb(124, 137, 137);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;     
+    background-attachment: fixed;  
+}
+
+/* Container for admin and user section */
+.loginSection{
+    align-self: center; 
+    display: flex;
+}
+  /*     admin image   */
+#admin{
+    height: 110px;
+    width: 110px;
+    background-color: rgb(53, 232, 223);
+    background-image: url("../Images/FirstPageImage/admin.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    border-radius: 50%;
+    border: 3.5px solid black;
+    margin-top: 160px;
+    margin-left: 90px;
+    
+}
+
+/*    user image   */
+#user{
+    height: 110px;
+    width: 110px;
+    background-color: rgb(53, 232, 223);
+    background-image: url("../Images/FirstPageImage/user.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    border-radius: 50%;
+    border: 3.5px solid black;
+    position: absolute;
+    right: 0px;
+    margin-top: 160px;
+    margin-right: 90px;
+    
+}
+     /* text container for admin and user */
+.loginText{
+    display: flex;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 10px;
+}
+   
+.adminText{
+    text-decoration: none;
+    margin-left: 110px;
+    color: rgb(255, 255, 255);
+}
+
+.userText{
+    float: right;
+    position: absolute;
+    right: 0px;
+    margin-right: 120px;
+    color: rgb(255, 255, 255);
+}

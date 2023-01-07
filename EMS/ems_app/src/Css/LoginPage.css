@@ -1,0 +1,184 @@
+.test{
+    width: fit-content;
+    height: auto;
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* main container for userlogin */
+.userLogin1MainBody{
+    height: 100vh;
+    background-image: url('../Images/FirstPageImage/userloginBGI.jpg');
+    background-color: rgb(15, 16, 16);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;     
+    background-attachment: fixed; 
+    
+}
+     /*    header Text       */
+#eventloginformText{
+   font-size: 55px;
+   color: rgb(255, 251, 251);
+   font-weight: 900;
+   margin-left: 23%;
+}
+/* actual container for elements */
+.loginContainer{
+    width: 35%;
+    height: auto;
+    background-color: rgb(7, 7, 7);
+    opacity: 0.82;
+    border-radius: 40px;
+    position: absolute;
+    left: 32%;
+}
+/*   header of actual login container text */
+#loginformText{
+    font-size: 35px;
+    color: rgb(0, 255, 255);
+    position: relative;
+    left: 20%;
+    display: block;
+}
+/*  FaUser */
+.usernameText{
+    display: block;
+    margin-left: 9%;
+    margin-top: 20px;
+    color: rgb(136, 241, 241);
+    font-size: 18.5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#loginUsernameInput{
+    border: none;
+    size: 50%;
+    border-radius: 7px;
+    left:9%;
+    position: relative;
+    width: 50%;
+    height: 18px;
+    padding: 4px 4px 4px 7px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(244, 246, 244);
+    background-color: rgb(12, 12, 12);
+    letter-spacing: 0.7px;
+}
+#Hr{
+    background-color: rgb(136, 233, 233);
+    width: 85%;
+}
+#loginPasswordInput{
+    size: 50%;
+    border-radius: 7px;
+    left:9%;
+    position: relative;
+    border: none;
+    width: 50%;
+    height: 18px;
+    padding: 4px 4px 4px 7px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(251, 255, 254);
+    background-color: rgb(12, 12, 12);
+    letter-spacing: 0.7px;
+
+}
+/*     Remember Me and forget Password */
+.RememberAndForget{
+    margin-left: 8%;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+#RememberMe{
+    font-size: medium;
+}
+#forgetPassword{
+   float: right;
+   color: white;
+   margin-right: 8%;
+   font-size: medium;
+}
+/*     SUMBIT Button */
+#submitBtn{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 8%;
+    margin-left: 29%;
+    width: 40%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px;
+    background-color: rgb(163, 246, 246);
+    border-radius: 7px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    /* background-image: linear-gradient(to top right, rgb(121, 197, 238) ,rgb(98, 217, 232) ); */
+}
+/* Error Message */
+.errorMsg{
+    color: rgb(255, 46, 46);
+    /* background-color: azure; */
+    font-size: small;
+    margin-left: 12%;
+    font-weight: 700;
+}
+
+/* ****** Login Option *****8 */
+.loginOption{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    line-height: 2;
+}
+#loginWith{
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+#google{
+    width: 27px;
+    height: 27px;
+    background-color: white;
+    border-radius: 150%;
+    margin-right: 10px;
+    text-align: center;
+    opacity: 1;
+}
+#googleIcon{
+    align-self: center;
+    margin-top: 6px;
+}
+#facebook{
+    width: 27px;
+    height: 27px;
+    background-color: white;
+    border-radius: 50%;
+    color: rgb(60, 60, 238);
+}
+#facebookIcon{
+    margin-top: 6px;
+    margin-left: 6px;
+}
+#createAccountLP{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 31.5%;
+    word-spacing: 1.5px;
+    /* border: 1px solid rgb(244, 246, 244); */
+    line-height: 2.5;
+    opacity: 1;
+    
+}
+#accountLink{
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: 800;
+    margin-left: 2px;
+}
