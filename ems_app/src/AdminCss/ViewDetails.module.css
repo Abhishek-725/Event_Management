@@ -1,0 +1,84 @@
+.mainBody{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+.mainContainer{
+    margin: 5px;
+    padding: 5px;
+    /* margin-left: 6%; */
+}
+.detailContainer{
+    width: 40%;
+    height: auto;
+    padding: auto;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(147, 228, 228);
+    border-radius: 5px;
+    margin-left: 32%;
+}
+.detailTxt{
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-bottom: 16px;
+}
+
+.singleDetail{
+    width: 90%;
+    background-color: aliceblue;
+    margin-left: 4%;
+    padding: 5px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.detailTitle label{
+    width: 50%;
+    text-align: center;
+    /* background-color: aqua; */
+    margin-left: 20px;
+    font-size: small;
+    font-weight: 600;
+}
+.detailValue{
+    text-align: center;
+    width: 50%;
+    /* background-color: rgb(163, 229, 162); */
+    font-size: small;
+    font-weight: 600;
+}
+
+.inputBox textarea{
+    padding-top: 6px;
+}
+
+.select{
+    padding: 3px;
+    font-size: small;
+    font-weight: 550;
+    border-radius: 5px;
+}
+.button{
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.button input[type="submit"]{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #202693;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button input[type="submit"]:hover{
+    background: #3529bc;
+}

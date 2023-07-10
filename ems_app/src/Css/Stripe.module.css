@@ -1,0 +1,24 @@
+.PaymentButton{
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 40%;
+
+}
+.googleButton{
+    margin-top: 2%;
+    margin-left: 37%;
+}
+.PaymentButton button{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #3ac635;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background: #57e787;
+}

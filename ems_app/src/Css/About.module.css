@@ -1,0 +1,36 @@
+.mainBody{
+    margin: 0;
+    padding: 0;
+}
+
+.aboutSection{
+    display: flex;
+}
+/* image */
+.imgContainer{
+    margin: 4px;
+    padding: 4px;
+}
+.logoImg{
+    width: 440px;
+    height: 440px;
+}
+/* details */
+.detailContainer{
+    margin: 4px;
+    padding: 4px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+/* paragraph */
+.firstPara{
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.secondPara{
+    font-size: large;
+    color: gray;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}

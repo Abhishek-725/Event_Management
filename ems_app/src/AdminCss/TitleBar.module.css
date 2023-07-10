@@ -1,0 +1,55 @@
+.mainBody{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(190, 240, 243);
+}
+/* rgb(109, 109, 109) */
+.TitleBar{
+    display: flex;
+}
+
+.logoImage{
+    width: 50px;
+    height: 40px;
+    background-color: aliceblue;
+    background-image: url('../Images/Admin_Image/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title{
+    font-size: 16px;
+    color: rgb(10, 10, 10);
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 12px;
+    padding-right: 8px;
+    border-right: 1.2px solid rgb(58, 58, 58);
+}
+.NavBar{
+    width: 75%;
+    padding:8px 5px 8px 5px;
+    display: flex;
+    justify-content: space-between; 
+    font-weight: 700;
+    color: rgb(154, 140, 244); 
+}
+
+.link{
+    color: rgb(34, 34, 127);
+    font-size: small;
+
+}
+
+.link:hover{
+    color: white;
+}
+
+.menu:hover{
+    border-radius: 5px;
+    background-color: rgb(99, 111, 146);
+    color: white;
+    padding: 1px 2px;
+}

@@ -1,0 +1,51 @@
+
+.mainBody{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(125, 156, 250);
+}
+
+.TitleBar{
+    display: flex;
+}
+
+.NavBar{
+    width: 75%;
+    padding:8px 5px 8px 5px;
+    justify-content: space-between;
+    display: flex;
+    font-weight: 700;
+    color: aliceblue;
+  
+}
+
+.logoImage{
+    width: 50px;
+    height: 40px;
+    background-color: aliceblue;
+    background-image: url('../Images/Admin_Image/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title{
+    font-size: 16px;
+    color: rgb(10, 10, 10);
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 12px;
+    padding-right: 8px;
+    border-right: 1.2px solid rgb(58, 58, 58);
+}
+
+.link{
+    color: aliceblue;
+}
+.menu:hover{
+    border-radius: 5px;
+    background-color: rgb(99, 111, 146);
+    color: white;
+    padding: 2px 4px;
+}

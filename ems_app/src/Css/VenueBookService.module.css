@@ -1,0 +1,47 @@
+.mainBody{
+    margin: 0;
+    padding: 0;
+}
+.mainContainer{
+display: flex;
+padding: 15px;
+}
+
+.venueDetails{
+    width: 45%;
+    height: auto;
+    padding: 20px;
+}
+.venueImage{
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.venueName{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 650;
+}
+.button input[type="submit"]{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #3e2093;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10%;
+}
+.button input[type="submit"]:hover{
+    background: #5029bc;
+}
+.timeErrorMsg{
+    color: rgb(244, 15, 15);
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 10px;
+    position: absolute;
+    margin-top: 1%;
+}

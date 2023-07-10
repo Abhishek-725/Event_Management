@@ -1,0 +1,117 @@
+.mainBody{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(244, 213, 234);
+
+}
+/*            Sticky         navbar */
+
+/* background-color: rgb(109, 143, 244); */
+.NavBar{
+    width: 73%;
+    padding:8px 5px 8px 5px;
+    display: flex;
+    justify-content: space-between; 
+    font-weight: 700;
+    color: rgb(154, 140, 244); 
+}
+.TitleBar{
+    display: flex;
+}
+
+.logoImage{
+    width: 50px;
+    height: 42px;
+    background-color: aliceblue;
+    background-image: url('../Images/Admin_Image/RoyalLogo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* event title */
+.title{
+    font-size: 17px;
+    color: rgb(83, 8, 154);
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 12px;
+    padding-right: 8px;
+    border-right: 1.2px solid rgb(58, 58, 58);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu:hover{
+    border-radius: 5px;
+    background-color: rgb(190, 202, 237);
+    color: white;
+    padding: 1px 3px;    
+}
+.link{
+    color: rgb(11, 11, 11);
+    font-size: 14px;
+}
+.link:hover{
+    color: white;
+}
+/* Icon style */
+.icon{
+    font-size: 13.5px;
+    margin-right: 2.5px;
+    line-height: 3;
+    font-weight: 500;
+    color: black;
+    padding-top: 3px;
+}
+.icon:hover{
+    color: white;
+}
+.active{
+    text-decoration: underline;
+}
+/* User Profile */
+.userProfile{
+    border: 1px dotted black;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: rgb(173, 104, 234);
+}
+.userLogo{
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: black;
+}
+
+.subMenu{
+    position: absolute;
+    border: 1px solid rgb(99, 97, 97);
+    width: auto;
+    border-radius: 7px;
+    display: block;
+    right: 10px;
+    padding-top: 1.2%;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: rgb(71, 68, 68);
+    color: white;
+    font-weight: 500;
+    top: 8%;
+}
+
+.subMenu::before{
+    content: '';
+    position: absolute;
+    top: -0.4rem;
+    width: 12px;
+    height: 12px;
+    right: 12px;
+    background-color: white;
+    transform: rotate(45deg);
+    border-left: 1px solid rgb(99, 97, 97);
+    border-top: 1px solid rgb(99, 97, 97);
+    background-color: rgb(71, 68, 68);
+}

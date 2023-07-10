@@ -1,0 +1,212 @@
+.mainBody{
+    margin: 0;
+    padding: 0;
+}
+/* .quantity */
+.quantity{
+    align-items: center;
+    margin-top: 5px;
+    text-align: center;
+}
+.qtyNumInput{
+    text-align: center;
+    width: 7%;
+    padding: 2px;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 4px;
+    font-size: large;
+    font-weight: 700;
+}
+.mainContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.image{
+    width: 300px;
+    height: 160px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4%;
+    border-radius: 7px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    box-shadow: 1px 2px 5px black
+}
+.card{
+    height: fit-content;
+    text-align: center;
+    border: 1px dotted;
+    border-radius: 10px;
+    padding: 5px;
+    width: 320px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 15px;
+    margin-bottom: 1.5%;
+    
+}
+.eventName{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(46, 6, 124);
+    
+}
+.price{
+    text-align: center;
+}
+.description{
+    text-align: center;
+    padding: 4px;
+    /* background-color: #6e4ccb; */
+    height: 45px;
+    margin-bottom: 1.5%;
+}
+.btnAdd{
+    background-color: #6e4ccb;
+    padding: 7px 10px;
+    font-weight: 650;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+/* user selected item */
+.selectTitle{
+    text-align: center;
+    font-size: larger;
+    color: rgb(115, 47, 223);
+    font-weight: 600;
+}
+.totalAmount{
+    width: auto;
+    padding-left: 70%;
+    padding-bottom: 4px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.singleItem{
+    display: flex;
+    padding-bottom: 1%;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    justify-content: space-between;   
+    /* background-color: aqua; */
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid gray;
+}
+.titleImage{
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4%;
+    border-radius: 7px;
+    text-align: center;
+    width: 200px;
+
+}
+.userImage{
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4%;
+    border-radius: 7px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    box-shadow: 1px 2px 5px black
+}
+.selectRefreshname{
+    margin-top: 4%;
+    font-size: 15px;
+    font-weight: 600;
+    width: 25%;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+.selectQty{
+    align-items: center;
+    margin-top: 4%;
+    font-size: 15px;
+    font-weight: 600;
+    /* background-color: aquamarine; */
+    text-align: center;
+    width: 7%;
+    height: auto;
+}
+.button{
+    display: inline-block;
+    margin-top: 4%;
+}
+.removeIcon{
+    color: #d80202;
+    font-size: 28px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+/* back and nect btn */
+.back_next{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.previous ,.next {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.previous:hover{
+    background-color: #9e85e2;
+    color: black;
+}
+.next:hover {
+    background-color: #bda7fa;
+    color: black;
+}
+
+.previous {
+    background-color: #3e2093;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    left: 10px;
+    cursor: pointer;
+    margin-right: 1%;
+}
+
+.next {
+    background-color: #3e2093;
+    color: white;
+    border-radius: 3px;
+    right: 10px;
+    cursor: pointer;
+    margin-left: 1%;
+}
+
+.round {
+    border-radius: 50%;
+}
+/* end of back and next btn */
